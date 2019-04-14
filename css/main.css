@@ -1,0 +1,13 @@
+body {
+  background-color: #F2F2F2; }
+
+nav {
+  background-color: #FFFFFF; }
+  nav a {
+    color: #006341; }
+  nav .container-fluid .navbar-brand img {
+    width: 250px;
+    height: 75px; }
+
+section {
+  background-color: #F2F2F2; }

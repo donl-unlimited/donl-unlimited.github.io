@@ -1,1 +1,24 @@
-@include coustom-variable.scss
+@import 'custom-variables';
+
+
+body{
+background-color:$bodycolor;
+}
+
+nav{
+  background-color:$nav;
+  a{
+    color:$textcolour;
+  }
+  .container-fluid{
+    .navbar-brand{
+      img{
+        width:250px;
+        height:75px;
+      }
+    }
+  }
+}
+section{
+  background-color: $bodycolor;
+}
