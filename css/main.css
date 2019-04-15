@@ -1,13 +1,56 @@
+h1 {
+  color: #bcf442; }
+
 body {
-  background-color: #F2F2F2; }
+  /* Image location */
+  background-image: url(./img/IMG_0297_1.jpg);
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646; }
 
-nav {
-  background-color: #FFFFFF; }
-  nav a {
-    color: #006341; }
-  nav .container-fluid .navbar-brand img {
-    width: 250px;
-    height: 75px; }
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/gotham.css");
+  src: url("./fonts//GothamPro.woff"), url("./fonts//GothamPro.eot"); }
 
-section {
-  background-color: #F2F2F2; }
+h3 {
+  font-family: "Gotham";
+  color: white;
+  position: relative;
+  bottom: 123px; }
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(./img/IMG_0297_1.jpg); } }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-items: stretch;
+  padding-top: 200px;
+  padding-right: 80px;
+  /* padding-bottom: 80px; */
+  padding-left: 80px; }
+
+/* .grid div {} */
+.grid div img {
+  max-width: 100%;
+  display: flex;
+  justify-content: center; }
+
+/* Container holding the image and the text */
+.div {
+  position: relative;
+  text-align: center;
+  color: white; }
