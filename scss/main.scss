@@ -49,9 +49,31 @@ body {
 
 h3 {
   font-family: "Gotham";
+  font-size: 18px;
   color: white;
   position: relative;
-  bottom: 123px;
+  text-align: center;
+  right: 50px;
+  bottom: 160px;
+}
+
+main {
+  //
+  // padding-top: 150px;
+  // padding-right: 80px;
+  // padding-bottom: 80px;
+  // padding-left: 80px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 /* For mobile devices */
@@ -63,21 +85,21 @@ h3 {
   }
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  align-items: stretch;
-  padding-top: 150px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  padding-left: 80px;
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+//   align-items: stretch;
+//   padding-top: 150px;
+//   padding-right: 80px;
+//   padding-bottom: 80px;
+//   padding-left: 80px;
 
 }
 
-.grid div img {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
+// .grid div img {
+//   max-width: 100%;
+//   display: flex;
+//   justify-content: center;
 
 }
 

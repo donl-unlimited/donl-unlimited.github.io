@@ -7058,9 +7058,12 @@ body {
 
 h3 {
   font-family: "Gotham";
+  font-size: 18px;
   color: white;
   position: relative;
-  bottom: 123px; }
+  text-align: center;
+  right: 50px;
+  bottom: 160px; }
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
