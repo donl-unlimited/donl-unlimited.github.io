@@ -7038,7 +7038,7 @@ img.special {
 
 body {
   /* Image location */
-  background-image: url(./img/IMG_0297_1.jpg);
+  background-image: url(../../img/IMG_0297_1.jpg);
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
   /* Image doesn't repeat */
@@ -7053,8 +7053,8 @@ body {
 
 @font-face {
   font-family: "Gotham";
-  src: url("./fonts/gotham.css");
-  src: url("./fonts//GothamPro.woff"), url("./fonts//GothamPro.eot"); }
+  src: url("../../fonts/gotham.css");
+  src: url("../../fonts//GothamPro.woff"), url("../../fonts//GothamPro.eot"); }
 
 h3 {
   font-family: "Gotham";
@@ -7075,10 +7075,9 @@ h3 {
   align-items: stretch;
   padding-top: 150px;
   padding-right: 80px;
-  /* padding-bottom: 80px; */
+  padding-bottom: 80px;
   padding-left: 80px; }
 
-/* .grid div {} */
 .grid div img {
   max-width: 100%;
   display: flex;
