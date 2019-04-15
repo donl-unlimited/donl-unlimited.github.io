@@ -1,2 +1,2 @@
-# donl-unlimited.github.io
-Final Project, design, agency for Media and Design
+# mtm6330-week-10
+Learning jQuery and AJAX
