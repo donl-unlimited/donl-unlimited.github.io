@@ -7063,6 +7063,21 @@ h3 {
   position: relative;
   bottom: 160px; }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(./img/IMG_0297_1.jpg); } }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 0.1fr));
