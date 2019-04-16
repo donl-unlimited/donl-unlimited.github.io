@@ -1,7 +1,11 @@
-@import 'variables';
-
-h1 {
-  color: $header-color;
+// import our _custom-variables.scss partial file
+@import 'custom-variables';
+@import 'contact';
+// import _bootstrap.scss partial file from the node_modules
+@import '../node_modules/bootstrap/scss/bootstrap';
+.card{
+  height: 200px;
+  background: $teal;
 }
 
 body {
